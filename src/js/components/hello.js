@@ -1,8 +1,8 @@
 // @file hello.js
-function Hello() {
-    'use strict';
-
+class Hello {
+  constructor() {
     this.message = 'Hello!';
+  }
 }
 
 module.exports = Hello;
