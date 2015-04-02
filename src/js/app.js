@@ -2,9 +2,10 @@
 (function () {
     'use strict';
 
-    var Hello = require('./components/hello');
+    var React = require('react');
 
-    var hello = new Hello();
-
-    document.write(hello.message);
+    React.render(
+      <h1>Hello, world!</h1>,
+      document.getElementById('example')
+    );
 })();
